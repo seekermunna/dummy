@@ -1,0 +1,26 @@
+Steps to follow for Existing Repo
+1. clone the repo
+
+    git clone https://github.com/<username>/<repo-name>.git
+
+2. open repo folder
+
+    cd <repo-name>
+
+3. pull all data from repo if it had already some files
+
+    git pull origin main
+
+4. if you want to add new file then paste or create new file and then add files to repo
+
+    git add <filename>     -- it is for single file
+    git add .              -- for all new files
+
+5. make a comment about the files
+
+    git commit -m "Your commit message"
+
+
+6. final step is to push the code to main
+
+    git push origin main
