@@ -24,3 +24,7 @@ Steps to follow for Existing Repo
 6. final step is to push the code to main
 
     git push origin main
+
+7. if new files are added by others then use pull
+ 
+    git pull
